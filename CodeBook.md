@@ -1,4 +1,4 @@
-DATA DICTIONARY - TIDY_MOVEMENT_DATA.txt
+##DATA DICTIONARY - TIDY_MOVEMENT_DATA.txt
 
 
 The data is avaiable for download at: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
@@ -23,13 +23,18 @@ gravityMean tBodyAccMean tBodyAccJerkMean tBodyGyroMean tBodyGyroJerkMean
 
 
 
-Feature Vector variables:
-mean() : mean values of multiple measurements of the original variables. Type: Real number
+##Feature Vector variables:
+mean() : mean values of multiple measurements of the original variables. 
+        Data Type: Real number
 
-std(): Standard deviation of multiple measurements of the original variables. Type: Real number
+std(): Standard deviation of multiple measurements of the original variables. 
+        Data Type: Real number
 
-activity_id: Identifier, identifying the activity of each subject Type: Integer Values: 1 : 6
+activity_id: Identifier, identifying the activity of each subject Type: 
+        Data Type: Integer Values: 1 : 6
 
-activity_name: Descriptive name of each subject's activity Type: Factor Values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+activity_name: Descriptive name of each subject's activity Type: 
+        Data Type: Factor Values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-subject_id : Identifier, identifying each subject Type: Integer Values: 1 : 30
+subject_id : Identifier, identifying each subject Type: 
+        Data Type: Integer Values: 1 : 30
