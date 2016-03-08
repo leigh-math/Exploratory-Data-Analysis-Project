@@ -24,17 +24,17 @@ gravityMean tBodyAccMean tBodyAccJerkMean tBodyGyroMean tBodyGyroJerkMean
 
 
 ##Feature Vector variables:
-mean() : mean values of multiple measurements of the original variables. 
+###mean() : mean values of multiple measurements of the original variables. 
         Data Type: Real number
 
-std(): Standard deviation of multiple measurements of the original variables. 
+###std(): Standard deviation of multiple measurements of the original variables. 
         Data Type: Real number
 
-activity_id: Identifier, identifying the activity of each subject Type: 
+###activity_id: Identifier, identifying the activity of each subject Type: 
         Data Type: Integer Values: 1 : 6
 
-activity_name: Descriptive name of each subject's activity Type: 
+###activity_name: Descriptive name of each subject's activity Type: 
         Data Type: Factor Values: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
-subject_id : Identifier, identifying each subject Type: 
+###subject_id : Identifier, identifying each subject Type: 
         Data Type: Integer Values: 1 : 30
